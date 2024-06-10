@@ -1,0 +1,37 @@
+/* Style des cellules du tableau */
+td, th {
+  text-align: center;
+  border: 1px solid black; /* Ajout de la bordure autour des cellules */
+  padding: 8px;
+}
+
+/* Style du conteneur de la barre de recherche */
+.search-container {
+  margin-bottom: 20px;
+}
+
+/* Style de l'entrée de recherche */
+#searchInput, #secondSearchInput {
+  padding: 8px;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid black;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+/* Style de la barre de recherche */
+.search-bar {
+  display: none;
+  margin-top: 10px;
+}
+
+/* Style des listes déroulantes */
+.dropdown-list {
+  display: block;
+  margin-bottom: 10px; /* Ajoutez un espacement entre les deux listes */
+}
+#titre {
+  text-align: center;
+  font-weight: bold;
+}
